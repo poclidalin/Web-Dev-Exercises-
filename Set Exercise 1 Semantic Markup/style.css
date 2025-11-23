@@ -1,0 +1,28 @@
+/* Body:Settings of main page */
+/* General page style */
+body {
+  font-family: "Times New Roman", Times, serif; /* Text font */
+  margin: 0;                /* Remove default space */
+  padding: 0 20px;          /* White space on left and right for all page */
+  background: white;        /* Page Background */
+}
+
+/* Shared style for grey backgrounds */
+/* Used for header, tip, and footer */
+.highlighted-box {
+  background: #ddd;         /* Light grey color */
+  padding: 20px;            /* Space inside box */
+  margin: 20px 0;           /* White space  above and below */
+}
+
+/* Space between links menu */
+/* Small gap between menu items */
+nav a {
+  margin-right: 10px;       /* Small gap between links */
+}
+
+/* Main content spacing */
+/* Space around the main section */
+main {
+  margin: 20px 0;           /* Space above and below of main content */
+}
